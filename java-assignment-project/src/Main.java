@@ -27,6 +27,16 @@ public class Main {
         question18 question18 = new question18();
         question19 question19 = new question19();
         question20 question20 = new question20();
+        question21 question21 = new question21();
+        question22 question22 = new question22();
+        question23 question23 = new question23();
+        question24 question24 = new question24();
+        question25 question25 = new question25();
+        question26 question26 = new question26();
+        question27 question27 = new question27();
+        question28 question28 = new question28();
+        question29 question29 = new question29();
+        question30 question30 = new question30();
 
         while (true) {
             System.out.print("Which solution do you wish to see, from Q1 to Q30 (Enter 1 for Q1): ");
@@ -83,5 +93,25 @@ public class Main {
             question19.deletingSelectedOccurrenceInArrays();
         if (choice == 20)
             question20.checkIfStringIsAPalindrome();
+        if (choice == 21)
+            question21.checkIfStringIsAnagram();
+        if (choice == 22)
+            question22.reverseString();
+        if (choice == 23)
+            question23.leadingZeroRemoval();
+        if (choice == 24)
+            question24.linearSearch();
+        if (choice == 25)
+            question25.binarySearch();
+        if (choice == 26)
+            question26.bubbleSort();
+        if (choice == 27)
+            question27.insertionSort();
+        if (choice == 28)
+            question28.selectionSort();
+        if (choice == 29)
+            question29.mergeSortIOMeth();
+        if (choice == 30)
+            question30.quickSortIOMeth();
     }
 }
